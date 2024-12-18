@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proplist: A Next.js Property Listing App
 
-## Getting Started
+This project, Proplist, is a frontend assessment built with Next.js, designed for users to explore and browse property listings.
 
-First, run the development server:
+## Functionality
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Proplist offers features that enhance the user experience when searching for properties:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Browse Properties:** Users can view a list of properties.
+* **Pagination:** Datasets of properties are handled efficiently with pagination, allowing users to navigate through results.
+* **Loading State:** While data is being fetched, a user-friendly loading state is displayed, indicating the application is working in the background.
+* **Clean Code:** The project prioritizes clean and well-structured code, promoting maintainability and future enhancements.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is currently deployed on Render, a cloud platform for web applications. Access it live at:
 
-## Learn More
+- **Production URL:** https://proplist-qo5x.onrender.com
 
-To learn more about Next.js, take a look at the following resources:
+## Local Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For local development and testing purposes, clone the repository and run the application:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Prerequisites:**
 
-## Deploy on Vercel
+- Node.js and npm (or yarn) installed on your system.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Installation:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository: `git clone https://github.com/EmmanuelToluwanimi/proplist.git`
+2. Navigate to the project directory: `cd proplist`
+3. Install dependencies: `npm install` (or `yarn install`)
+
+**Development Server:**
+
+1. Start the development server: `npm run dev` (or `yarn dev`)
+2. Open http://localhost:3000 in your browser.
+
+## Technical Stack
+
+* **Frontend:** Next.js
+* **Deployment:** Render (cloud platform)
