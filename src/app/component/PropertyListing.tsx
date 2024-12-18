@@ -43,7 +43,7 @@ export default function PropertyListing() {
   return (
     <section>
       <h1 className="text-2xl font-bold mb-4">Property Listings</h1>
-      {loading && <p>Loading...</p>}
+      {loading && <p className="text-center text-lg animate-pulse">Loading...</p>}
       {errorMessage && <p className="text-red-500">{errorMessage}</p>}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {properties.map((property) => (
