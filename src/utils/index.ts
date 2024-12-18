@@ -1,1 +1,2 @@
 export const baseUrl: string = 'https://proplistapi.onrender.com';
+export const placeholder = "https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2F4d44f61e-7a32-4a87-b84f-16b92a1ad971.jpg&w=3840&q=75"
